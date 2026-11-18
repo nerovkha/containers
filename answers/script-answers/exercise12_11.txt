@@ -1,0 +1,5 @@
+$ docker exec todo-app-redis-1 redis-cli GET added_todos
+9
+
+$ docker exec todo-app-redis-1 redis-cli GET visits
+2
