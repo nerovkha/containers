@@ -31,3 +31,8 @@ cd todo-tests && npm install && npm run test:e2e   # expects the app on http://l
 compose stack, waits for nginx, and runs the Playwright suite on every
 push and pull request. This directory is self-contained — copy its
 contents into a new repository and CI works without any extra setup.
+
+## Links
+
+App repository from the previous two exercises: https://github.com/nerovkha/part-7
+(the bloglist app, containerized in its `bloglist/` directory)
